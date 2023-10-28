@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'gluten';
+    src: url(./../assets/Fonts/Gluten-Light.ttf);
+}
+
+.loginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.loginCard {
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 30px 50px;
+}
+
+.loginCard h2 {
+    text-align: center;
+    font-size: 1.24rem;
+    margin-bottom: 40px;
+    color: rgb(93, 93, 93);
+}
+
+.nameApp {
+    font-family: 'gluten';
+    font-size: 1.74rem;
+}
+
+.loginBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: #00ad42;
+    padding: 7px 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.loginBtn img {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #009037;
+}

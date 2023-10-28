@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'noto-sans';
+    src: url(./assets/Fonts/NotoSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto-sans' ,Arial, Helvetica, sans-serif;
+}
